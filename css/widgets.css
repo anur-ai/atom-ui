@@ -1,0 +1,86 @@
+/* This CSS file contains main components of AtomUI, including Buttons, Text Types, Paddings, Margins  */
+
+/* Paddings */
+.p-1 {
+	padding: 5px;
+}
+.p-2 {
+	padding: 10px;
+}
+.p-3 {
+	padding: 15px;
+}
+/* /Paddings */
+
+
+/* Margin */
+.mt-1 {
+	margin-top: 5px;
+}
+.mt-2 {
+	margin-top: 10px;
+}
+.mt-3 {
+	margin-top: 15px;
+}
+.mt-4 {
+	margin-top: 25px;
+}
+.mt-5 {
+	margin-top: 34px;
+}
+.mt-6 {
+	margin-top: 47px;
+}
+/* /Margin */
+
+/* Text */
+h1, .h1 {
+	font-size: 44px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+h2, .h2 {
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+h3, .h3 {
+	font-size: 27px;
+	font-family: 'Roboto', sans-serif;
+}
+h4, .h4 {
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+h5, .h5 {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;	
+}
+/* /Text */
+
+/* Flex */
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.justify-space-around {
+	justify-content: space-around;
+}
+.align-items-center {
+	align-items: center;
+}
+/* /Flex */

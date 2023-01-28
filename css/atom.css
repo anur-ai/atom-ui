@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	align-items: center;
+}
+
+nav .hamburger div {
+	background: black;
+	height: 4px;
+	width: 30px;
+	border-radius: 2px;
+	opacity: .7;
+}
+
+main h1 {
+	opacity: .8;
+}
