@@ -19,3 +19,48 @@ nav .hamburger div {
 main h1 {
 	opacity: .8;
 }
+
+.what-we-do ul li {
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+.card {
+	cursor: pointer;
+}
+
+.card p {
+	opacity: .7;
+}
+
+.author img {
+	width: 230px;
+	height: 230px;
+	border-radius: 200px;
+}
+
+footer {
+	text-align: center;
+	background: rgba(70, 70, 70, .7);
+	color: white;
+	padding: 10px;
+}
+
+@media (max-width: 796px) {
+	main img {
+		width: 100%;
+	}
+	.partners {
+		display: none;
+	}
+	.dates .date h3 {
+		font-size: 19px;
+	}
+	.dates .date p {
+		font-size: 13px;
+	}
+	.dates .date img {
+		width: 20%;
+	}
+}

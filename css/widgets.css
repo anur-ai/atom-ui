@@ -10,6 +10,9 @@
 .p-3 {
 	padding: 15px;
 }
+.p-4 {
+	padding: 25px;
+}
 /* /Paddings */
 
 
@@ -43,18 +46,24 @@ h1, .h1 {
 h2, .h2 {
 	font-size: 35px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 h3, .h3 {
 	font-size: 27px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 h4, .h4 {
 	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 }
 h5, .h5 {
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
+}
+.bold {
+	font-weight: 900!!important;
 }
 
 p {
@@ -62,10 +71,17 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;	
 }
+a {
+	font-family: "Roboto", sans-serif;
+}
 /* /Text */
 
 /* Flex */
 .row {
+	display: flex;
+	flex-direction: row;
+}
+.row-column {
 	display: flex;
 	flex-direction: row;
 }
@@ -83,4 +99,14 @@ p {
 .align-items-center {
 	align-items: center;
 }
+.text-align-center {
+	text-align: center;
+}
 /* /Flex */
+
+@media (max-width: 796px) {
+	.row-column {
+		flex-direction: column;
+		align-items: center;
+	}
+}
